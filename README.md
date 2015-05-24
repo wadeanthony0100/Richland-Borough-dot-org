@@ -8,7 +8,6 @@ Richland borough in Lebanon, Pennsylvania, is a small town with few needs. This 
 Early Development
 
 #Wanna Help?
-Don't. I'm not looking for help on this one, sorry! It's here for easy version control + easy source publishing
+Don't. I'm not looking for help on this one, sorry! It's here for easy (pronounced 'free') version control + easy source publishing. TLDR; look but don't touch
 
-See the latest stable release it in action at
-#richlandborough.org
+See the latest stable release it in action at richlandborough.org

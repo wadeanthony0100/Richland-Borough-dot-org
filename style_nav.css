@@ -116,6 +116,11 @@
     background-image: url("img/nav/nav_finances.gif");
 }
 
+#nav p   {
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
 /*
 onHover 's
 */

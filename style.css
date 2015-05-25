@@ -93,3 +93,33 @@ html    {
     padding-top: 20px;
     margin: auto;
 }
+
+#business_card  {
+    height: auto;
+    width: 450px;
+    padding: 25px;
+    margin-left: 400px;
+}
+
+#business_card h1, h2, h3, h4, h5, h6   {
+    display: inline;
+}
+
+#business_card h3   {
+    padding-right:25px;
+}
+
+#business_card h1   {
+    font-size: 32pt;
+}
+
+#buttons h1    {
+    display: inline;
+    margin: 10px;
+    font-size: 18pt;
+}
+
+#buttons    {
+    margin: 20px;
+    margin-left: 425px;
+}

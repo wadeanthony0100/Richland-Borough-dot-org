@@ -6,12 +6,19 @@
     <title>Richland Borough | Meeting Minuites</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="style_nav.css">
+
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        }
+    </script>
+
 </head>
 <body>
 
 <div class  ="content">
     <div id="banner"></div>
-    <iframe name="iFrame1" id="sidebar" width="250" height="1150" src="nav_bar.html" scrolling="yes" frameborder="0"></iframe>
+        <iframe name="iFrame1" id="sidebar" src="nav_bar.html" frameborder="0" scrolling="no" onload='javascript:resizeIframe(this);'></iframe> 
     this is filler text.
 </div><!--close id content-->
 

@@ -4,11 +4,19 @@
  * main text color: #d7af39
  */
 
+body,html{
+    height: 100%
+}
+
 *   {
     margin: 0;
     padding: 0;
     color: #d7af39;
     font-family: Sans-Serif;
+}
+
+p   {
+    font-size: 12pt;
 }
 
 html    {
@@ -52,6 +60,7 @@ html    {
 
 #sidebar  {
     background-color: #8f9da2;
+    margin-right: 15px;
     width: 250px;
     float: left;
 }
@@ -122,4 +131,31 @@ html    {
 #buttons    {
     margin: 20px;
     margin-left: 425px;
+}
+
+#history_page {
+    padding: 15px;
+}
+
+#history_page h1    {
+    text-align: center;
+    line-height: 45pt;
+}
+
+#history_page h2    {
+    text-align: center;
+    line-height: 45pt;
+    font-size: 25pt;
+}
+
+#history_page h3    {
+    line-height: 40pt;
+    font-size: 17pt;
+    margin-left: 15pt;
+}
+
+#history_page p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15pt;
 }

@@ -25,12 +25,18 @@
         });
     </script>
 
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        }
+    </script>
+
 </head>
 <body>
 
     <div class  ="content">
         <div id="banner"></div>
-        <iframe name="iFrame1" id="sidebar" width="250" height="1145" src="nav_bar.html" scrolling="yes" frameborder="0"></iframe>
+        <iframe name="iFrame1" id="sidebar" src="nav_bar.html" frameborder="0" scrolling="no" onload='javascript:resizeIframe(this);'></iframe>
         <div id="body_content">
 
             <img id="philip_klop_train" src="img/klopp_lerro_train.jpg" width="620" height="297">

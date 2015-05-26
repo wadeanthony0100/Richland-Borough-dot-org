@@ -6,12 +6,19 @@
     <title>Richland Borough | Contact Us</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="style_nav.css">
+
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        }
+    </script>
+
 </head>
 <body>
 
 <div class  ="content" style="height: 1346px">
     <div id="banner"></div>
-    <iframe name="iFrame1" id="sidebar" width="250" height="1150" src="nav_bar.html" scrolling="yes" frameborder="0"></iframe>
+    <iframe name="iFrame1" id="sidebar" src="nav_bar.html" frameborder="0" scrolling="no" onload='javascript:resizeIframe(this);'></iframe>
 
     <div id="business_card">
         <h1>Richland Borough</h1><br><br>

@@ -116,6 +116,14 @@
     background-image: url("img/nav/nav_finances.gif");
 }
 
+#nav_refuse {
+    height: 28px;
+    width: 180px;
+    margin: 15px;
+    margin-left: 30px;
+    background-image: url("img/nav/nav_refuse.gif");
+}
+
 #nav p   {
     margin-left: 30px;
     margin-bottom: 15px;
@@ -180,4 +188,8 @@ onHover 's
 
 #nav_finances:hover   {
     background-image: url("img/nav/nav_finances_onhover.gif");
+}
+
+#nav_refuse:hover   {
+    background-image: url("img/nav/nav_refuse_onhover.gif");
 }

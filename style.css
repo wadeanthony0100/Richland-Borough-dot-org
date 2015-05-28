@@ -15,6 +15,10 @@ body,html{
     font-family: Sans-Serif;
 }
 
+hr  {
+    border-color: #d7af39;
+}
+
 p   {
     font-size: 12pt;
 }
@@ -29,7 +33,7 @@ html    {
     border-color: #d7af39;
 
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 15px;
 }
 
 #body_text {
@@ -60,7 +64,8 @@ html    {
 
 #sidebar  {
     background-color: #8f9da2;
-    margin-right: 15px;
+    margin-right: 30px;
+    padding-bottom: 30px;
     width: 250px;
     float: left;
 }
@@ -103,7 +108,7 @@ html    {
     margin: auto;
 }
 
-#business_card  {
+.business_card  {
     height: auto;
     width: 450px;
     padding: 25px;
@@ -133,6 +138,27 @@ html    {
     margin-left: 425px;
 }
 
+.right_to_know_content h1  {
+    text-align: center;
+    padding: 15px;
+}
+
+.right_to_know_content ul  {
+    padding: 25px;
+    padding-left: 350px;
+}
+
+.right_to_know_content   {
+    font-size: 16pt;
+    margin-right: 35px;
+}
+
+.right_to_know_content span{
+    display: block;
+    width: 1px;
+    height: 595px;
+}
+
 #history_page {
     padding: 15px;
 }
@@ -157,5 +183,18 @@ html    {
 #history_page p {
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 7px;
+    margin-bottom: 7px;
     font-size: 15pt;
+    line-height: 25pt;
+}
+
+#history_page img   {
+    display: block;
+    height: 374px;
+    width: 600px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }

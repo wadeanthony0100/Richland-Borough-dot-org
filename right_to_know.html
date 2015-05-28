@@ -16,13 +16,15 @@
 </head>
 <body>
 
-<div class  ="content">
+<div class="content">
     <div id="banner"></div>
-    <iframe name="iFrame1" id="sidebar" width="250" height="1150" src="nav_bar.html" scrolling="yes" frameborder="0"></iframe>
+    <iframe name="iFrame1" id="sidebar" src="nav_bar.html" frameborder="0" scrolling="no" onload='javascript:resizeIframe(this);'></iframe>
 
-    <p id="body_text">
-        In accordance with the Pennsylvania Right-to-Know Act (Act 3 of 2008), records maintained by Richland Borough may be public, unless the records are
-    </p>
+    <div class="right_to_know_content">
+        <h1>Right to Know</h1>
+        In accordance with the Pennsylvania Right-to-Know Act (Act 3 of 2008), records maintained
+        by Richland Borough may be public, unless the records are
+
 
     <ul>
         <li>Specifically exempted by Section 708 of Act 3,</li>
@@ -30,21 +32,23 @@
         <li>Exempted by a judicial decree or order.</li>
     </ul>
 
-    <p id="body_text">
-        In order to request information from the borough, print and complete a copy of this form and mail it to<br><br>
+        In order to request information from the borough, print and
+        complete a copy of this form and mail it to
+        </div><br><br>
 
-    <!--TODO Complete this page-->
+    <div id="business_card">
+        <h2>Richland Borough</h2><br>
+        <h2>5 Pine Street, P.O. Box 676</h2><br>
+        <h2>Richland, PA 17087</h2><br><br><br>
+    </div>
 
-        <div id="address">
-            Richland Borough<br>
-            5 Pine Street, P.O. Box 676<br>
-            Richland, PA 17087<br><br>
-        </div>
-
-        See this document for more information on fees and processing.
-
-        Requests for information may also be considered public. A list of requests can be seen here.
-    </p>
+    <div class="right_to_know_content">
+    See this document for more information on fees and processing.
+    Requests for information may also be considered public. A list of requests can be seen here.
+        <span></span>
+    </div>
+    <br>
+    <br>
 
 </div><!--close id content-->
 

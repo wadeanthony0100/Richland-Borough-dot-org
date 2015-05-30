@@ -5,7 +5,8 @@
  */
 
 body,html{
-    height: 100%
+    height: 100%;
+    width: 100%
 }
 
 *   {
@@ -25,6 +26,11 @@ p   {
 
 html    {
     background-color: #325272;
+}
+
+.content h1 {
+    font-size: 18pt;
+    padding: 15px;
 }
 
 #body_content img {
@@ -109,10 +115,11 @@ html    {
 }
 
 .business_card  {
+    display: block;
     height: auto;
-    width: 450px;
+    width: 600px;
     padding: 25px;
-    margin-left: 400px;
+    margin-left: 250px;
 }
 
 #business_card h1, h2, h3, h4, h5, h6   {
@@ -124,7 +131,7 @@ html    {
 }
 
 #business_card h1   {
-    font-size: 32pt;
+    font-size: 18pt;
 }
 
 #buttons h1    {
@@ -195,6 +202,109 @@ html    {
     width: 600px;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#page_header    {
+    font-size: 32pt;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+.community_img  {
+    display: block;
+    position: relative;
+    float: left;
+    margin: 17px;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d7af39;
+}
+
+#meeting_minutes table    {
+    margin: 0 auto;
+    padding: 35px;
+}
+
+#meeting_minutes td  {
+    font-size: 15pt;
+    padding: 15px;
+    background-color: #325272;
+}
+
+#meeting_minutes    {
+    padding-bottom: 440px;
+}
+
+#fire_company   {
+    font-size: 18pt;
+    line-height: 30pt;
+    padding: 20px;
+
+}
+
+#fire_company img   {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d7af39;
+
+    display: block;
+    margin: auto;
+}
+
+#fire_company h1    {
+    text-align: center;
+    font-size: 32pt;
+    margin: 15px;
+}
+
+#refuse_content {
+    padding: 15px;
+    font-size: 18pt;
+}
+
+#refuse_content h1  {
+    text-align: center;
+    font-size: 32pt;
+    margin: 10px;
+}
+
+#refuse_content p {
+    font-size: 18pt;
+}
+
+#refuse_content ul  {
+    margin-left: 400px
+}
+
+#plunge_content h1  {
+    text-align: center;
+    font-size: 32pt;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+#plunge_content h2 {
+    display: block;
+    text-align: center;
+    font-size: 18pt;
+    line-height: 10pt;
+}
+
+#plunge_content {
+    padding: 20px;
+    font-size: 18pt;
+}
+
+#plunge_content img {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d7af39;
+
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }

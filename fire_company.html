@@ -7,6 +7,24 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="style_nav.css">
 
+    <!-- jQuery library (served from Google) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="slideshow/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="slideshow/jquery.bxslider.css" rel="stylesheet" />
+
+    <script>
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({
+                pagerCustom: '#bx-pager',
+                adaptiveHeight: true,
+                auto: true,
+                slideWidth: 900
+            });
+        });
+    </script>
+
     <script>
         function resizeIframe(obj) {
             obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
@@ -19,7 +37,58 @@
 <div class  ="content">
     <div id="banner"></div>
     <iframe name="iFrame1" id="sidebar" src="nav_bar.html" frameborder="0" scrolling="no" onload='javascript:resizeIframe(this);'></iframe>
-    this is filler text.
+    <div id="fire_company">
+        <h1>Neptune Fire Company</h1>
+
+        <img src="img/fire_eng33.jpg"><br>
+
+        The Neptune Fire Company, formed in 1907, was originally located on North Park Street and used a hand drawn
+        Wirt Knox Chemical Engine.<br><br>
+
+        The current fire station, on Main Street, was built in 1922 with the addition of a 1921 Seagraves motorized
+        triple combination pumper.<br><br>
+
+        In 1947 the fire company took delivery of a 1947 Mack type 75 engine, which stayed in service until 1998.<br><br>
+
+        In 1959 they took delivery of a Dodge-Brightbill Squad truck.<br><br>
+
+        In the mid seventies the fire company refurbished and added on to their building and bought a 1974 Mack
+        CF600 engine.<br><br>
+
+        The 1959 Squad was replaced in 1993 with a Volvo/Saulsbury Squad.  This truck continues to be one of the
+        largest air trucks in the region.<br><br>
+
+        1998 saw the addition of a new modern pumper.  It is a large pumper with a 1750 gpm pump and 1250 gal of
+        water and is affectionally known as the "Beast".<br><br>
+
+        In 2002 the fire company started the QRS Unit and ran it off the Fire Police Unit until they purchased the Ford
+        550 Utility, in 2005, when they sold the 1974 Mack.<br><br>
+
+        In 2007 they celebrated the 100th year of the company by hosting the Lebanon County Firefighter's Convention.
+        The First County Convention was held, in Richland, in 1922, and the current plan is to have the 100th Anniversary
+        of the County here as well.<br><br>
+
+        For more information about the Neptune Fire Company, including events, happenings and banquet hall information,
+        visit their website at <a href="http://www.neptunefire33.com/" target="_blank">neptunefire33.com</a>,
+        or check them out on
+        <a href="http://facebook.com/pages/Neptune-Fire-Company/128101647275868?fref=ts" target="_blank">Facebook</a>.
+
+        <!--slideshow-->
+        <div class="slideshow">
+            <ul class="bxslider">
+                <li><img src="img/fire_slide/img197196421.JPEG" /></li>
+                <li><img src="img/fire_slide/img197196437.JPEG" /></li>
+                <li><img src="img/fire_slide/img197196437.jpg" /></li>
+                <li><img src="img/fire_slide/img197196453.jpg" /></li>
+                <li><img src="img/fire_slide/img197196468.jpg" /></li>
+                <li><img src="img/fire_slide/img197196484.jpg" /></li>
+                <li><img src="img/fire_slide/img197196500.jpg" /></li>
+                <li><img src="img/fire_slide/img197196515.jpg" /></li>
+            </ul>
+        </div>
+        <!--end slideshow-->
+
+    </div>
 </div><!--close id content-->
 
 <div id="footer">

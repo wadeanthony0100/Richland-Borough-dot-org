@@ -389,3 +389,50 @@ span    {
 
 .service h3   {
 }
+
+#finances_content    h1  {
+    font-size: 32pt;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#finances_content table {
+    margin-left: 485px;
+    padding-bottom: 980px;
+}
+
+#finances_content td {
+    font-size: 15pt;
+    background-color: #325272;
+    padding: 10px;
+    margin: 10px;
+}
+
+#water_content  {
+    padding: 25px;
+}
+
+#water_content h1 {
+    padding: 15px;
+    font-size: 24pt;
+    text-align: center;
+}
+
+#water_content p {
+    font-size: 18pt;
+    margin-bottom: 20px;
+}
+
+#water_content img  {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #d7af39;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#water_content h6   {
+    font-size: 15pt;
+    text-align: center;
+}

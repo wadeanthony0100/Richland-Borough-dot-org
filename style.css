@@ -239,6 +239,12 @@ html    {
     padding-bottom: 440px;
 }
 
+#meeting_minutes    h1  {
+    font-size: 32pt;
+    text-align: center;
+    margin-top: 15px;
+}
+
 #fire_company   {
     font-size: 18pt;
     line-height: 30pt;
@@ -307,4 +313,79 @@ html    {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#officials_content  {
+    height: 1205px;
+}
+
+#officials_content h1   {
+    margin: 15px;
+    font-size: 32pt;
+    text-align: center;
+}
+
+.official   {
+    width: 340px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+#officials  {
+    display: block;
+    background-color: white;
+}
+
+#ordinances {
+    margin: 20px;
+    font-size: 15pt;
+    text-align: center;
+}
+
+#ordinances h1  {
+    font-size: 32pt;
+    margin: 15px;
+    text-align: center;
+}
+
+#ordinances p   {
+    font-size: 18pt;
+    margin-left: 350px;
+    text-align: left;
+}
+
+#ordinances li  {
+    font-size: 20pt;
+    margin-left: 300px;
+    padding: 15px;
+    text-align: left;
+}
+
+span    {
+    color: red;
+}
+
+#services_content h1   {
+    font-size: 32pt;
+    text-align: center;
+    margin: 15px;
+}
+
+#services_content h2    {
+    display: block;
+}
+
+.service    {
+    display: block;
+    text-align: left;
+    margin: 20px;
+    margin-left: 350px;
+}
+
+.service h2   {
+    display: block;
+    text-align: left;
+}
+
+.service h3   {
 }

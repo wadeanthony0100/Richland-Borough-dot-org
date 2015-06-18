@@ -63,6 +63,7 @@ html    {
 
 .content    {
     background-color: #2b425a;
+    min-height: 1470px;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -236,7 +237,6 @@ html    {
 }
 
 #meeting_minutes    {
-    padding-bottom: 440px;
 }
 
 #meeting_minutes    h1  {
@@ -398,7 +398,6 @@ span    {
 
 #finances_content table {
     margin-left: 485px;
-    padding-bottom: 980px;
 }
 
 #finances_content td {

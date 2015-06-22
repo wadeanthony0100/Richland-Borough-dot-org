@@ -435,3 +435,20 @@ span    {
     font-size: 15pt;
     text-align: center;
 }
+
+.event  {
+    padding: 25px;
+}
+
+.event p    {
+    padding: 6px;
+    font-size: 14pt;
+}
+
+.event h2   {
+    font-size: 20pt;
+}
+
+.event h3   {
+    font-size: 18pt;
+}

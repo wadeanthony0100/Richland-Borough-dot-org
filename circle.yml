@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: 0.10.22
+
+dependancies:
+  override:
+    - npm install --dev
+
+test:
+  post:
+    - ./test.sh

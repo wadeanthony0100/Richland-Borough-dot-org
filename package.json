@@ -1,0 +1,23 @@
+{
+  "name": "richland-borough-dot-org",
+  "version": "1.0.0",
+  "description": "A site for the borough of Richland",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wadeanthony0100/Richland-Borough-dot-org.git"
+  },
+  "author": "Wade Mauger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wadeanthony0100/Richland-Borough-dot-org/issues"
+  },
+  "homepage": "https://github.com/wadeanthony0100/Richland-Borough-dot-org#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "chalk": "^1.1.1"
+  }
+}

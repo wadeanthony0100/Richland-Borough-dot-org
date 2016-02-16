@@ -19,5 +19,6 @@
   "devDependencies": {},
   "dependencies": {
     "chalk": "^1.1.1",
+    "jsdom": "^8.0.2"
   }
 }

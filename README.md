@@ -1,4 +1,5 @@
 [![Circle CI](https://circleci.com/gh/wadeanthony0100/Richland-Borough-dot-org/tree/master.svg?style=svg)](https://circleci.com/gh/wadeanthony0100/Richland-Borough-dot-org/tree/master)
+[![Build Status](https://travis-ci.org/wadeanthony0100/Richland-Borough-dot-org.svg?branch=master)](https://travis-ci.org/wadeanthony0100/Richland-Borough-dot-org)
 # Richland-Borough-dot-org
 A working repo for the richland borough website
 

@@ -1,3 +1,12 @@
 machine:
   node:
     version: 5.1.0
+
+deployment:
+  automerge:
+    branch: master
+    commands:
+      - echo "DEPLOYING..."
+      - ssh -p 2222 richboro@richlandborough.org
+      - cd public_html/
+      - git pull
